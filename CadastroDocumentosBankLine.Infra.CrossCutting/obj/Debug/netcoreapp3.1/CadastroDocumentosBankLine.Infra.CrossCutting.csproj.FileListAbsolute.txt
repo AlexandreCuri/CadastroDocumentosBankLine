@@ -1,0 +1,14 @@
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.CrossCutting\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Infra.CrossCutting.csprojAssemblyReference.cache
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.CrossCutting\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Infra.CrossCutting.AssemblyInfoInputs.cache
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.CrossCutting\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Infra.CrossCutting.AssemblyInfo.cs
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.CrossCutting\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Infra.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.CrossCutting\bin\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Infra.CrossCutting.deps.json
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.CrossCutting\bin\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Infra.CrossCutting.dll
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.CrossCutting\bin\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Infra.CrossCutting.pdb
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.CrossCutting\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Infra.CrossCutting.dll
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.CrossCutting\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Infra.CrossCutting.pdb
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.CrossCutting\bin\Debug\netcoreapp3.1\CadastroDocumentosBankLine.ApplicationService.dll
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.CrossCutting\bin\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Domain.dll
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.CrossCutting\bin\Debug\netcoreapp3.1\CadastroDocumentosBankLine.ApplicationService.pdb
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.CrossCutting\bin\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Domain.pdb
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.CrossCutting\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Infra.CrossCutting.csproj.CopyComplete

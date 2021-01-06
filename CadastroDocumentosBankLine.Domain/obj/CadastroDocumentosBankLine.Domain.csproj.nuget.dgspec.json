@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexandre.curi\\source\\repos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Domain\\CadastroDocumentosBankLine.Domain.csproj": {}
+    "C:\\AlexandreCuri\\Projetos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Domain\\CadastroDocumentosBankLine.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexandre.curi\\source\\repos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Domain\\CadastroDocumentosBankLine.Domain.csproj": {
+    "C:\\AlexandreCuri\\Projetos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Domain\\CadastroDocumentosBankLine.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexandre.curi\\source\\repos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Domain\\CadastroDocumentosBankLine.Domain.csproj",
+        "projectUniqueName": "C:\\AlexandreCuri\\Projetos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Domain\\CadastroDocumentosBankLine.Domain.csproj",
         "projectName": "CadastroDocumentosBankLine.Domain",
-        "projectPath": "C:\\Users\\alexandre.curi\\source\\repos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Domain\\CadastroDocumentosBankLine.Domain.csproj",
+        "projectPath": "C:\\AlexandreCuri\\Projetos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Domain\\CadastroDocumentosBankLine.Domain.csproj",
         "packagesPath": "C:\\Users\\alexandre.curi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexandre.curi\\source\\repos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Domain\\obj\\",
+        "outputPath": "C:\\AlexandreCuri\\Projetos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

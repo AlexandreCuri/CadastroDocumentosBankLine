@@ -1,0 +1,9 @@
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Domain\bin\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Domain.deps.json
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Domain\bin\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Domain.dll
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Domain\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Domain.csprojAssemblyReference.cache
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Domain\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Domain.AssemblyInfoInputs.cache
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Domain\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Domain.AssemblyInfo.cs
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Domain\bin\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Domain.pdb
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Domain\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Domain.csproj.CoreCompileInputs.cache
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Domain\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Domain.dll
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Domain\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Domain.pdb

@@ -4,5 +4,12 @@
         <name>CadastroDocumentosBankLine.WebAPI</name>
     </assembly>
     <members>
+        <member name="M:CadastroDocumentosBankLine.WebAPI.Controllers.DocumentosController.CadastrarDocumentos(CadastroDocumentosBankLine.Domain.Requests.CadastroDocumentosRequest)">
+            <summary>
+            Cadastra documentos no formato "Base64String"
+            </summary>
+            <param name="cadastroDocumentosRequest"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "XF7usw+MXZ8v8dmsAyNjqOIH37f8i/8bDDvEe18BrBpIBacqvx+wc4cUbNNTCX5+zp9ixvDEsfMMcnOoj/93bQ==",
+  "success": true,
+  "projectFilePath": "C:\\AlexandreCuri\\Projetos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Domain\\CadastroDocumentosBankLine.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alexandre.curi\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.1\\microsoft.aspnetcore.http.features.5.0.1.nupkg.sha512",
+    "C:\\Users\\alexandre.curi\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\alexandre.curi\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

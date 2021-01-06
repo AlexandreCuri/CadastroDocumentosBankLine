@@ -1,0 +1,12 @@
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.ApplicationService\bin\Debug\netcoreapp3.1\CadastroDocumentosBankLine.ApplicationService.deps.json
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.ApplicationService\bin\Debug\netcoreapp3.1\CadastroDocumentosBankLine.ApplicationService.dll
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.ApplicationService\bin\Debug\netcoreapp3.1\CadastroDocumentosBankLine.ApplicationService.pdb
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.ApplicationService\bin\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Domain.dll
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.ApplicationService\bin\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Domain.pdb
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.ApplicationService\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.ApplicationService.csprojAssemblyReference.cache
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.ApplicationService\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.ApplicationService.AssemblyInfoInputs.cache
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.ApplicationService\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.ApplicationService.AssemblyInfo.cs
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.ApplicationService\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.ApplicationService.csproj.CopyComplete
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.ApplicationService\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.ApplicationService.dll
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.ApplicationService\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.ApplicationService.pdb
+C:\Users\alexandre.curi\source\repos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.ApplicationService\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.ApplicationService.csproj.CoreCompileInputs.cache

@@ -17,6 +17,11 @@ namespace CadastroDocumentosBankLine.WebAPI.Controllers
             _cadastroDocumentosService = cadastroDocumentosService;
         }
 
+        /// <summary>
+        /// Cadastra documentos no formato "Base64String"
+        /// </summary>
+        /// <param name="cadastroDocumentosRequest"></param>
+        /// <returns></returns>
         [HttpPost(Name = nameof(CadastrarDocumentos))]
         [ApiVersion("1.0")]
         [ProducesResponseType((int)HttpStatusCode.OK)]
