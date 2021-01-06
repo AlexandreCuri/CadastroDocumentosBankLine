@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit.RabbitMQ" Version="7.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CadastroDocumentosBankLine.Domain\CadastroDocumentosBankLine.Domain.csproj" />
+    <ProjectReference Include="..\CadastroDocumentosBankLine.Infra.Bus.Messages\CadastroDocumentosBankLine.Infra.Bus.Messages.csproj" />
+  </ItemGroup>
+
+</Project>

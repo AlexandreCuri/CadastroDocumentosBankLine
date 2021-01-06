@@ -1,0 +1,9 @@
+C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.Bus.Messages\bin\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Infra.Bus.Messages.deps.json
+C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.Bus.Messages\bin\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Infra.Bus.Messages.dll
+C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.Bus.Messages\bin\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Infra.Bus.Messages.pdb
+C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.Bus.Messages\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Infra.Bus.Messages.csprojAssemblyReference.cache
+C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.Bus.Messages\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Infra.Bus.Messages.AssemblyInfoInputs.cache
+C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.Bus.Messages\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Infra.Bus.Messages.AssemblyInfo.cs
+C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.Bus.Messages\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Infra.Bus.Messages.csproj.CoreCompileInputs.cache
+C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.Bus.Messages\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Infra.Bus.Messages.dll
+C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.Bus.Messages\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.Infra.Bus.Messages.pdb

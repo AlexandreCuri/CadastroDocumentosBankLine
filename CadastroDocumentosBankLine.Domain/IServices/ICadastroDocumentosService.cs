@@ -9,6 +9,6 @@ namespace CadastroDocumentosBankLine.Domain.IServices
 {
     public interface ICadastroDocumentosService
     {
-        Task<Result> CadastarDocumentos(CadastroDocumentosRequest cadastroDocumentosRequest);
+        Task<Result> CadastrarDocumentos(CadastroDocumentosRequest cadastroDocumentosRequest);
     }
 }

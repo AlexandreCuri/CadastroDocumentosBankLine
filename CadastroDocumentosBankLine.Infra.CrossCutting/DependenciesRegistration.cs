@@ -1,5 +1,7 @@
 ﻿using CadastroDocumentosBankLine.ApplicationService;
 using CadastroDocumentosBankLine.Domain.IServices;
+using CadastroDocumentosBankLine.Infra.Bus.Producers;
+using MassTransit;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace CadastroDocumentosBankLine.Infra.CrossCutting
@@ -9,6 +11,8 @@ namespace CadastroDocumentosBankLine.Infra.CrossCutting
         public static void RegisterDependencies(this IServiceCollection services)
         {
             //Application service
+            services.AddTransient<ICadastroDocumentosService, CadastroDocumentosService>();
+            services.AddTransient<IProcessoProducer, ProcessoProducer>();
             services.AddTransient<ICadastroDocumentosService, CadastroDocumentosService>();
         }
     }

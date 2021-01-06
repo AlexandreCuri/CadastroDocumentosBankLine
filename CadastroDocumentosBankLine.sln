@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroDocumentosBankLine.WebAPI", "CadastroDocumentosBankLine\CadastroDocumentosBankLine.WebAPI.csproj", "{6E2DB9D2-E622-44FD-91F2-89EECDBBD052}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroDocumentosBankLine.WebAPI", "CadastroDocumentosBankLine\CadastroDocumentosBankLine.WebAPI.csproj", "{6E2DB9D2-E622-44FD-91F2-89EECDBBD052}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroDocumentosBankLine.Infra.CrossCutting", "CadastroDocumentosBankLine.Infra.CrossCutting\CadastroDocumentosBankLine.Infra.CrossCutting.csproj", "{5B0420DA-6C81-435C-8D6A-95D0AB2CC55D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroDocumentosBankLine.Infra.CrossCutting", "CadastroDocumentosBankLine.Infra.CrossCutting\CadastroDocumentosBankLine.Infra.CrossCutting.csproj", "{5B0420DA-6C81-435C-8D6A-95D0AB2CC55D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroDocumentosBankLine.Domain", "CadastroDocumentosBankLine.Domain\CadastroDocumentosBankLine.Domain.csproj", "{9DA91CE3-FAC2-497D-B8AD-6A33CE7D6C95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroDocumentosBankLine.Domain", "CadastroDocumentosBankLine.Domain\CadastroDocumentosBankLine.Domain.csproj", "{9DA91CE3-FAC2-497D-B8AD-6A33CE7D6C95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroDocumentosBankLine.ApplicationService", "CadastroDocumentosBankLine.ApplicationService\CadastroDocumentosBankLine.ApplicationService.csproj", "{E40E26D5-2D57-41CA-94F0-021A2FDF7217}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroDocumentosBankLine.ApplicationService", "CadastroDocumentosBankLine.ApplicationService\CadastroDocumentosBankLine.ApplicationService.csproj", "{E40E26D5-2D57-41CA-94F0-021A2FDF7217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroDocumentosBankLine.Infra.Bus", "CadastroDocumentosBankLine.Infra.Bus\CadastroDocumentosBankLine.Infra.Bus.csproj", "{41733A02-B06C-455A-A29B-155484F74B50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroDocumentosBankLine.Infra.Bus.Messages", "CadastroDocumentosBankLine.Infra.Bus.Messages\CadastroDocumentosBankLine.Infra.Bus.Messages.csproj", "{663E5D1F-D54C-4526-A86E-D5258D826FAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{E40E26D5-2D57-41CA-94F0-021A2FDF7217}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E40E26D5-2D57-41CA-94F0-021A2FDF7217}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E40E26D5-2D57-41CA-94F0-021A2FDF7217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41733A02-B06C-455A-A29B-155484F74B50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41733A02-B06C-455A-A29B-155484F74B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41733A02-B06C-455A-A29B-155484F74B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41733A02-B06C-455A-A29B-155484F74B50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{663E5D1F-D54C-4526-A86E-D5258D826FAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663E5D1F-D54C-4526-A86E-D5258D826FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663E5D1F-D54C-4526-A86E-D5258D826FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663E5D1F-D54C-4526-A86E-D5258D826FAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

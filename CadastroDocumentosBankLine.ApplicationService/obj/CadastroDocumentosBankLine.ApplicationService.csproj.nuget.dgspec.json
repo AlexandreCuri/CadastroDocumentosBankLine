@@ -33,6 +33,9 @@
             "projectReferences": {
               "C:\\AlexandreCuri\\Projetos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Domain\\CadastroDocumentosBankLine.Domain.csproj": {
                 "projectPath": "C:\\AlexandreCuri\\Projetos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Domain\\CadastroDocumentosBankLine.Domain.csproj"
+              },
+              "C:\\AlexandreCuri\\Projetos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Infra.Bus\\CadastroDocumentosBankLine.Infra.Bus.csproj": {
+                "projectPath": "C:\\AlexandreCuri\\Projetos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Infra.Bus\\CadastroDocumentosBankLine.Infra.Bus.csproj"
               }
             }
           }
@@ -123,6 +126,135 @@
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\AlexandreCuri\\Projetos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Infra.Bus.Messages\\CadastroDocumentosBankLine.Infra.Bus.Messages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AlexandreCuri\\Projetos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Infra.Bus.Messages\\CadastroDocumentosBankLine.Infra.Bus.Messages.csproj",
+        "projectName": "CadastroDocumentosBankLine.Infra.Bus.Messages",
+        "projectPath": "C:\\AlexandreCuri\\Projetos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Infra.Bus.Messages\\CadastroDocumentosBankLine.Infra.Bus.Messages.csproj",
+        "packagesPath": "C:\\Users\\alexandre.curi\\.nuget\\packages\\",
+        "outputPath": "C:\\AlexandreCuri\\Projetos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Infra.Bus.Messages\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alexandre.curi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tecnobank.pkgs.visualstudio.com/Sistemas/_packaging/tecnobank-packages%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\AlexandreCuri\\Projetos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Infra.Bus\\CadastroDocumentosBankLine.Infra.Bus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AlexandreCuri\\Projetos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Infra.Bus\\CadastroDocumentosBankLine.Infra.Bus.csproj",
+        "projectName": "CadastroDocumentosBankLine.Infra.Bus",
+        "projectPath": "C:\\AlexandreCuri\\Projetos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Infra.Bus\\CadastroDocumentosBankLine.Infra.Bus.csproj",
+        "packagesPath": "C:\\Users\\alexandre.curi\\.nuget\\packages\\",
+        "outputPath": "C:\\AlexandreCuri\\Projetos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Infra.Bus\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alexandre.curi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tecnobank.pkgs.visualstudio.com/Sistemas/_packaging/tecnobank-packages%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\AlexandreCuri\\Projetos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Domain\\CadastroDocumentosBankLine.Domain.csproj": {
+                "projectPath": "C:\\AlexandreCuri\\Projetos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Domain\\CadastroDocumentosBankLine.Domain.csproj"
+              },
+              "C:\\AlexandreCuri\\Projetos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Infra.Bus.Messages\\CadastroDocumentosBankLine.Infra.Bus.Messages.csproj": {
+                "projectPath": "C:\\AlexandreCuri\\Projetos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.Infra.Bus.Messages\\CadastroDocumentosBankLine.Infra.Bus.Messages.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
