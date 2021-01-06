@@ -1,6 +1,7 @@
 ﻿using CadastroDocumentosBankLine.Domain.Entities;
 using CadastroDocumentosBankLine.Domain.IServices;
 using CadastroDocumentosBankLine.Domain.Requests;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
@@ -23,16 +24,25 @@ namespace CadastroDocumentosBankLine.ApplicationService
 
         public async Task<Result> CadastarDocumentos(CadastroDocumentosRequest cadastroDocumentosRequest)
         {
+            var path = Path.Combine(_configuration.GetSection(WebHostDefaults.ContentRootKey).Value , _configuration.GetSection("DiretorioArquivoDocumentos").Value.ToString());
+
+            if (!Directory.Exists(path))
+            {
+                Directory.CreateDirectory(path);
+            }
+
             try
             {
                 foreach (var documento in cadastroDocumentosRequest.ListaDocumentos)
                 {
 
                     byte[] arquivo = Convert.FromBase64String(documento);
+
                     using (MemoryStream memoryStream = new MemoryStream(arquivo))
                     {
                         var imagem = Image.FromStream(memoryStream);
-                        imagem.Save(Path.Combine(_configuration.GetSection("DiretorioArquivoDocumentos").Value.ToString(), $"{Guid.NewGuid()}.jpg"));
+                        
+                        imagem.Save(Path.Combine(path, $"{Guid.NewGuid()}.jpg"));
                     }
 
                 }
