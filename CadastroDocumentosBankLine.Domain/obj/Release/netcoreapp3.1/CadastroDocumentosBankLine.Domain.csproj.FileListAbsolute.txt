@@ -1,9 +1,0 @@
-C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Domain\bin\Release\netcoreapp3.1\CadastroDocumentosBankLine.Domain.deps.json
-C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Domain\bin\Release\netcoreapp3.1\CadastroDocumentosBankLine.Domain.dll
-C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Domain\bin\Release\netcoreapp3.1\CadastroDocumentosBankLine.Domain.pdb
-C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Domain\obj\Release\netcoreapp3.1\CadastroDocumentosBankLine.Domain.csprojAssemblyReference.cache
-C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Domain\obj\Release\netcoreapp3.1\CadastroDocumentosBankLine.Domain.AssemblyInfoInputs.cache
-C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Domain\obj\Release\netcoreapp3.1\CadastroDocumentosBankLine.Domain.AssemblyInfo.cs
-C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Domain\obj\Release\netcoreapp3.1\CadastroDocumentosBankLine.Domain.csproj.CoreCompileInputs.cache
-C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Domain\obj\Release\netcoreapp3.1\CadastroDocumentosBankLine.Domain.dll
-C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Domain\obj\Release\netcoreapp3.1\CadastroDocumentosBankLine.Domain.pdb
