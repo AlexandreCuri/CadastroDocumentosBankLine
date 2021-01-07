@@ -12,3 +12,5 @@ C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.
 C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.CrossCutting\obj\Release\netcoreapp3.1\CadastroDocumentosBankLine.Infra.CrossCutting.csproj.CopyComplete
 C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.CrossCutting\obj\Release\netcoreapp3.1\CadastroDocumentosBankLine.Infra.CrossCutting.dll
 C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.CrossCutting\obj\Release\netcoreapp3.1\CadastroDocumentosBankLine.Infra.CrossCutting.pdb
+C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.CrossCutting\bin\Release\netcoreapp3.1\CadastroDocumentosBankLine.Infra.Bus.dll
+C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine.Infra.CrossCutting\bin\Release\netcoreapp3.1\CadastroDocumentosBankLine.Infra.Bus.pdb

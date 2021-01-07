@@ -130,3 +130,4 @@ C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine\
 C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.WebAPI.dll
 C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.WebAPI.pdb
 C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine\obj\Debug\netcoreapp3.1\CadastroDocumentosBankLine.WebAPI.genruntimeconfig.cache
+C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine\bin\Debug\netcoreapp3.1\aws-beanstalk-tools-defaults.json

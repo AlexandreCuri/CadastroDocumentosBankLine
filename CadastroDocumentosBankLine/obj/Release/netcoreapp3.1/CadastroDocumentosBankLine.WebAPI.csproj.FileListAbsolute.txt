@@ -57,3 +57,15 @@ C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine\
 C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine\obj\Release\netcoreapp3.1\CadastroDocumentosBankLine.WebAPI.dll
 C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine\obj\Release\netcoreapp3.1\CadastroDocumentosBankLine.WebAPI.pdb
 C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine\obj\Release\netcoreapp3.1\CadastroDocumentosBankLine.WebAPI.genruntimeconfig.cache
+C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine\bin\Release\netcoreapp3.1\Autofac.dll
+C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine\bin\Release\netcoreapp3.1\Automatonymous.dll
+C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine\bin\Release\netcoreapp3.1\GreenPipes.dll
+C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine\bin\Release\netcoreapp3.1\MassTransit.dll
+C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine\bin\Release\netcoreapp3.1\MassTransit.RabbitMqTransport.dll
+C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine\bin\Release\netcoreapp3.1\NewId.dll
+C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine\bin\Release\netcoreapp3.1\RabbitMQ.Client.dll
+C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine\bin\Release\netcoreapp3.1\System.Threading.Channels.dll
+C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine\bin\Release\netcoreapp3.1\CadastroDocumentosBankLine.Infra.Bus.dll
+C:\AlexandreCuri\Projetos\CadastroDocumentosBankLine\CadastroDocumentosBankLine\bin\Release\netcoreapp3.1\CadastroDocumentosBankLine.Infra.Bus.pdb

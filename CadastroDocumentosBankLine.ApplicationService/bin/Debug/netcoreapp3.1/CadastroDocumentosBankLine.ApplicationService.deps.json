@@ -1079,14 +1079,6 @@
         "runtime": {
           "CadastroDocumentosBankLine.Infra.Bus.dll": {}
         }
-      },
-      "CadastroDocumentosBankLine.Infra.Bus.Messages/1.0.0.0": {
-        "runtime": {
-          "CadastroDocumentosBankLine.Infra.Bus.Messages.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
       }
     }
   },
@@ -1852,11 +1844,6 @@
     },
     "CadastroDocumentosBankLine.Infra.Bus/1.0.0": {
       "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "CadastroDocumentosBankLine.Infra.Bus.Messages/1.0.0.0": {
-      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
