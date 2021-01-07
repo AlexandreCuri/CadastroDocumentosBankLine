@@ -1,8 +1,5 @@
-﻿using CadastroDocumentosBankLine.ApplicationService;
-using CadastroDocumentosBankLine.Domain.IServices;
+﻿using CadastroDocumentosBankLine.Domain.IServices;
 using CadastroDocumentosBankLine.Domain.Requests;
-using CadastroDocumentosBankLine.Infra.Bus.Producers;
-using MassTransit;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 using System.Threading.Tasks;
@@ -14,10 +11,12 @@ namespace CadastroDocumentosBankLine.WebAPI.Controllers
     public class DocumentosController : ControllerBase
     {
         private readonly ICadastroDocumentosService _cadastroDocumentosService;
-        
-        public DocumentosController(ICadastroDocumentosService cadastroDocumentosService)
+        private readonly IDocumentosFilaEnviadorService _documentoFilaEnviadorService;
+
+        public DocumentosController(ICadastroDocumentosService cadastroDocumentosService, IDocumentosFilaEnviadorService documentoFilaEnviadorService)
         {
-            _cadastroDocumentosService = cadastroDocumentosService;            
+            _cadastroDocumentosService = cadastroDocumentosService;
+            _documentoFilaEnviadorService = documentoFilaEnviadorService;
         }
 
         /// <summary>
@@ -31,10 +30,15 @@ namespace CadastroDocumentosBankLine.WebAPI.Controllers
         [ProducesResponseType((int)HttpStatusCode.BadRequest)]
         public async Task<IActionResult> CadastrarDocumentos(CadastroDocumentosRequest cadastroDocumentosRequest)
         {
-            var result = await _cadastroDocumentosService.CadastrarDocumentos(cadastroDocumentosRequest);           
+            var result = await _cadastroDocumentosService.CadastrarDocumentos(cadastroDocumentosRequest);
 
             if (result.IsFailure)
                 return BadRequest(result.Error);
+
+            var documentosEnviados = await _documentoFilaEnviadorService.EnviarDocumentosParaFila(cadastroDocumentosRequest.ListaDocumentos);
+
+            if (!documentosEnviados)
+                return BadRequest("Documentos não enviados para fila!");
 
             var model = result;
 

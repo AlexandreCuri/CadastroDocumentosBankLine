@@ -25,7 +25,6 @@
       "CadastroDocumentosBankLine.WebAPI/1.0.0": {
         "dependencies": {
           "Autofac": "6.1.0",
-          "Autofac.Owin": "6.0.1",
           "CadastroDocumentosBankLine.Domain": "1.0.0",
           "CadastroDocumentosBankLine.Infra.CrossCutting": "1.0.0",
           "Microsoft.AspNet.WebApi.Core": "5.2.7",
@@ -323,17 +322,6 @@
         },
         "compile": {
           "lib/netstandard2.1/Autofac.dll": {}
-        }
-      },
-      "Autofac.Owin/6.0.1": {
-        "runtime": {
-          "lib/net472/Autofac.Integration.Owin.dll": {
-            "assemblyVersion": "6.0.1.0",
-            "fileVersion": "6.0.1.0"
-          }
-        },
-        "compile": {
-          "lib/net472/Autofac.Integration.Owin.dll": {}
         }
       },
       "Automatonymous/5.1.0": {
@@ -1542,7 +1530,6 @@
       "CadastroDocumentosBankLine.Infra.Bus/1.0.0": {
         "dependencies": {
           "CadastroDocumentosBankLine.Domain": "1.0.0",
-          "CadastroDocumentosBankLine.Infra.Bus.Messages": "1.0.0",
           "MassTransit.RabbitMQ": "7.1.2",
           "Microsoft.Extensions.Configuration.Abstractions": "5.0.0"
         },
@@ -1551,14 +1538,6 @@
         },
         "compile": {
           "CadastroDocumentosBankLine.Infra.Bus.dll": {}
-        }
-      },
-      "CadastroDocumentosBankLine.Infra.Bus.Messages/1.0.0": {
-        "runtime": {
-          "CadastroDocumentosBankLine.Infra.Bus.Messages.dll": {}
-        },
-        "compile": {
-          "CadastroDocumentosBankLine.Infra.Bus.Messages.dll": {}
         }
       },
       "CadastroDocumentosBankLine.Infra.CrossCutting/1.0.0": {
@@ -3215,13 +3194,6 @@
       "path": "autofac/6.1.0",
       "hashPath": "autofac.6.1.0.nupkg.sha512"
     },
-    "Autofac.Owin/6.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-aHhaOFFJPtkvRbxkqR34vjWrEymv6EA84CIXZ4DZX+SRTMO2pzGpsI82ixDeFVOmDkr/TKVMjNXhJRDV79ojiA==",
-      "path": "autofac.owin/6.0.1",
-      "hashPath": "autofac.owin.6.0.1.nupkg.sha512"
-    },
     "Automatonymous/5.1.0": {
       "type": "package",
       "serviceable": true,
@@ -4038,11 +4010,6 @@
       "sha512": ""
     },
     "CadastroDocumentosBankLine.Infra.Bus/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "CadastroDocumentosBankLine.Infra.Bus.Messages/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -14,15 +14,6 @@
           "lib/netstandard2.1/Autofac.dll": {}
         }
       },
-      "Autofac.Owin/6.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/net472/Autofac.Integration.Owin.dll": {}
-        },
-        "runtime": {
-          "lib/net472/Autofac.Integration.Owin.dll": {}
-        }
-      },
       "Automatonymous/5.1.0": {
         "type": "package",
         "dependencies": {
@@ -1771,7 +1762,6 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "CadastroDocumentosBankLine.Domain": "1.0.0",
-          "CadastroDocumentosBankLine.Infra.Bus.Messages": "1.0.0",
           "MassTransit.RabbitMQ": "7.1.2",
           "Microsoft.Extensions.Configuration.Abstractions": "5.0.0"
         },
@@ -1780,16 +1770,6 @@
         },
         "runtime": {
           "bin/placeholder/CadastroDocumentosBankLine.Infra.Bus.dll": {}
-        }
-      },
-      "CadastroDocumentosBankLine.Infra.Bus.Messages/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/CadastroDocumentosBankLine.Infra.Bus.Messages.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CadastroDocumentosBankLine.Infra.Bus.Messages.dll": {}
         }
       },
       "CadastroDocumentosBankLine.Infra.CrossCutting/1.0.0": {
@@ -1829,21 +1809,6 @@
         "lib/netstandard2.1/Autofac.dll",
         "lib/netstandard2.1/Autofac.pdb",
         "lib/netstandard2.1/Autofac.xml"
-      ]
-    },
-    "Autofac.Owin/6.0.1": {
-      "sha512": "aHhaOFFJPtkvRbxkqR34vjWrEymv6EA84CIXZ4DZX+SRTMO2pzGpsI82ixDeFVOmDkr/TKVMjNXhJRDV79ojiA==",
-      "type": "package",
-      "path": "autofac.owin/6.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "autofac.owin.6.0.1.nupkg.sha512",
-        "autofac.owin.nuspec",
-        "icon.png",
-        "lib/net472/Autofac.Integration.Owin.dll",
-        "lib/net472/Autofac.Integration.Owin.pdb",
-        "lib/net472/Autofac.Integration.Owin.xml"
       ]
     },
     "Automatonymous/5.1.0": {
@@ -6093,11 +6058,6 @@
       "path": "../CadastroDocumentosBankLine.Infra.Bus/CadastroDocumentosBankLine.Infra.Bus.csproj",
       "msbuildProject": "../CadastroDocumentosBankLine.Infra.Bus/CadastroDocumentosBankLine.Infra.Bus.csproj"
     },
-    "CadastroDocumentosBankLine.Infra.Bus.Messages/1.0.0": {
-      "type": "project",
-      "path": "../CadastroDocumentosBankLine.Infra.Bus.Messages/CadastroDocumentosBankLine.Infra.Bus.Messages.csproj",
-      "msbuildProject": "../CadastroDocumentosBankLine.Infra.Bus.Messages/CadastroDocumentosBankLine.Infra.Bus.Messages.csproj"
-    },
     "CadastroDocumentosBankLine.Infra.CrossCutting/1.0.0": {
       "type": "project",
       "path": "../CadastroDocumentosBankLine.Infra.CrossCutting/CadastroDocumentosBankLine.Infra.CrossCutting.csproj",
@@ -6107,7 +6067,6 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Autofac >= 6.1.0",
-      "Autofac.Owin >= 6.0.1",
       "CadastroDocumentosBankLine.Domain >= 1.0.0",
       "CadastroDocumentosBankLine.Infra.CrossCutting >= 1.0.0",
       "Microsoft.AspNet.WebApi.Core >= 5.2.7",
@@ -6169,10 +6128,6 @@
             "target": "Package",
             "version": "[6.1.0, )"
           },
-          "Autofac.Owin": {
-            "target": "Package",
-            "version": "[6.0.1, )"
-          },
           "Microsoft.AspNet.WebApi.Core": {
             "target": "Package",
             "version": "[5.2.7, )"
@@ -6213,16 +6168,6 @@
     }
   },
   "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Autofac.Owin 6.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "Autofac.Owin",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
     {
       "code": "NU1701",
       "level": "Warning",

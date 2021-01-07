@@ -1650,7 +1650,6 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "CadastroDocumentosBankLine.Domain": "1.0.0",
-          "CadastroDocumentosBankLine.Infra.Bus.Messages": "1.0.0",
           "MassTransit.RabbitMQ": "7.1.2",
           "Microsoft.Extensions.Configuration.Abstractions": "5.0.0"
         },
@@ -1659,16 +1658,6 @@
         },
         "runtime": {
           "bin/placeholder/CadastroDocumentosBankLine.Infra.Bus.dll": {}
-        }
-      },
-      "CadastroDocumentosBankLine.Infra.Bus.Messages/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/CadastroDocumentosBankLine.Infra.Bus.Messages.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CadastroDocumentosBankLine.Infra.Bus.Messages.dll": {}
         }
       }
     }
@@ -5789,11 +5778,6 @@
       "type": "project",
       "path": "../CadastroDocumentosBankLine.Infra.Bus/CadastroDocumentosBankLine.Infra.Bus.csproj",
       "msbuildProject": "../CadastroDocumentosBankLine.Infra.Bus/CadastroDocumentosBankLine.Infra.Bus.csproj"
-    },
-    "CadastroDocumentosBankLine.Infra.Bus.Messages/1.0.0": {
-      "type": "project",
-      "path": "../CadastroDocumentosBankLine.Infra.Bus.Messages/CadastroDocumentosBankLine.Infra.Bus.Messages.csproj",
-      "msbuildProject": "../CadastroDocumentosBankLine.Infra.Bus.Messages/CadastroDocumentosBankLine.Infra.Bus.Messages.csproj"
     }
   },
   "projectFileDependencyGroups": {

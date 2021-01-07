@@ -11,9 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroDocumentosBankLine.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroDocumentosBankLine.ApplicationService", "CadastroDocumentosBankLine.ApplicationService\CadastroDocumentosBankLine.ApplicationService.csproj", "{E40E26D5-2D57-41CA-94F0-021A2FDF7217}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroDocumentosBankLine.Infra.Bus", "CadastroDocumentosBankLine.Infra.Bus\CadastroDocumentosBankLine.Infra.Bus.csproj", "{41733A02-B06C-455A-A29B-155484F74B50}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroDocumentosBankLine.Infra.Bus.Messages", "CadastroDocumentosBankLine.Infra.Bus.Messages\CadastroDocumentosBankLine.Infra.Bus.Messages.csproj", "{663E5D1F-D54C-4526-A86E-D5258D826FAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroDocumentosBankLine.Infra.Bus", "CadastroDocumentosBankLine.Infra.Bus\CadastroDocumentosBankLine.Infra.Bus.csproj", "{41733A02-B06C-455A-A29B-155484F74B50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +39,6 @@ Global
 		{41733A02-B06C-455A-A29B-155484F74B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41733A02-B06C-455A-A29B-155484F74B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41733A02-B06C-455A-A29B-155484F74B50}.Release|Any CPU.Build.0 = Release|Any CPU
-		{663E5D1F-D54C-4526-A86E-D5258D826FAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{663E5D1F-D54C-4526-A86E-D5258D826FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{663E5D1F-D54C-4526-A86E-D5258D826FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{663E5D1F-D54C-4526-A86E-D5258D826FAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

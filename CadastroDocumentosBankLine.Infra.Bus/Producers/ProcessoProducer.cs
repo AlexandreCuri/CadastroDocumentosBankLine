@@ -1,32 +1,52 @@
 ﻿using CadastroDocumentosBankLine.Domain.Entities;
-using CadastroDocumentosBankLine.Infra.Bus.Messages;
-using MassTransit;
+using Microsoft.Extensions.Configuration;
+using RabbitMQ.Client;
 using System;
-using System.Collections.Generic;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace CadastroDocumentosBankLine.Infra.Bus.Producers
 {
     public class ProcessoProducer : IProcessoProducer
     {
-        private readonly IPublishEndpoint _publishEndpoint;
+        private readonly IConfiguration _configuration;
 
-        public ProcessoProducer(IPublishEndpoint publishEndpoint)
+        public ProcessoProducer(IConfiguration configuration)
         {
-            _publishEndpoint = publishEndpoint;
+            _configuration = configuration;
         }
 
         public async Task<Result> Publish(ProcessoDocumento processoDocumentos)
         {
-            var documento = new ObtidoProcesso()
+            var factory = new ConnectionFactory()
             {
-                Documentos = processoDocumentos.Documentos
+                Uri = new Uri(_configuration.GetSection("RabbitMQConfigurations").GetSection("RabbitMqUri").Value),
+                UserName = _configuration.GetSection("RabbitMQConfigurations").GetSection("UserNameMq").Value,
+                Password = _configuration.GetSection("RabbitMQConfigurations").GetSection("PasswordMq").Value
             };
 
-            _publishEndpoint.Publish(documento);
+            using (var connection = factory.CreateConnection())
+            {
+                using (var channel = connection.CreateModel())
+                {
+                    channel.QueueDeclare(queue: _configuration.GetSection("RabbitMQConfigurations").GetSection("DocumentosQueue").Value,
+                                         durable: false,
+                                         exclusive: false,
+                                         autoDelete: false,
+                                         arguments: null);
 
-            return Result.Ok();
+                    var body = Encoding.UTF8.GetBytes(JsonSerializer.Serialize(processoDocumentos.Documentos));
+
+                    channel.BasicPublish(exchange: _configuration.GetSection("RabbitMQConfigurations").GetSection("ExchangeName").Value,
+                                         routingKey: "",
+                                         basicProperties: null,
+                                         body: body);
+
+
+                    return Result.Ok();
+                }
+            }
         }
     }
 }

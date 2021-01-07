@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7vdjfx0Js7XDFXw1X245EAxby64m1QyY7VAxQoj6wFKtkoFPHU54sv/fJSJXYNmlb852wD8HcJThFb6W0QoP3g==",
+  "dgSpecHash": "gco+NiYy8qwlpVEqp36U/eAYK6m+qXLOA8Vqbnoht2zvH8uW+FhPpx6DOBtCtNHMIIi3VFj8YPznKvfqIpDhKA==",
   "success": true,
   "projectFilePath": "C:\\AlexandreCuri\\Projetos\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine\\CadastroDocumentosBankLine.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexandre.curi\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
-    "C:\\Users\\alexandre.curi\\.nuget\\packages\\autofac.owin\\6.0.1\\autofac.owin.6.0.1.nupkg.sha512",
     "C:\\Users\\alexandre.curi\\.nuget\\packages\\automatonymous\\5.1.0\\automatonymous.5.1.0.nupkg.sha512",
     "C:\\Users\\alexandre.curi\\.nuget\\packages\\greenpipes\\4.0.0\\greenpipes.4.0.0.nupkg.sha512",
     "C:\\Users\\alexandre.curi\\.nuget\\packages\\masstransit\\7.1.2\\masstransit.7.1.2.nupkg.sha512",
@@ -123,16 +122,6 @@
     "C:\\Users\\alexandre.curi\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Autofac.Owin 6.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "Autofac.Owin",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
     {
       "code": "NU1701",
       "level": "Warning",
