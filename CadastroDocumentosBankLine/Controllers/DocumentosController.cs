@@ -30,19 +30,28 @@ namespace CadastroDocumentosBankLine.WebAPI.Controllers
         [ProducesResponseType((int)HttpStatusCode.BadRequest)]
         public async Task<IActionResult> CadastrarDocumentos(CadastroDocumentosRequest cadastroDocumentosRequest)
         {
-            var result = await _cadastroDocumentosService.CadastrarDocumentos(cadastroDocumentosRequest);
+            try
+            {
+                var result = await _cadastroDocumentosService.CadastrarDocumentos(cadastroDocumentosRequest);
 
-            if (result.IsFailure)
-                return BadRequest(result.Error);
+                if (result.IsFailure)
+                    return BadRequest(result.Error);
 
-            var documentosEnviados = await _documentoFilaEnviadorService.EnviarDocumentosParaFila(cadastroDocumentosRequest.ListaDocumentos);
+                var documentosEnviados = await _documentoFilaEnviadorService.EnviarDocumentosParaFila(cadastroDocumentosRequest.ListaDocumentos);
 
-            if (!documentosEnviados)
-                return BadRequest("Documentos não enviados para fila!");
+                if (!documentosEnviados)
+                    return BadRequest("Documentos não enviados para fila!");
 
-            var model = result;
+                var model = result;
 
-            return Ok(result);
+                return Ok(result);
+            }
+            catch (System.Exception ex)
+            {
+
+                return BadRequest(ex.Message);
+            }
+            
         }
     }
 }
