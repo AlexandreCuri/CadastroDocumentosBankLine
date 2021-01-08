@@ -1,11 +1,11 @@
 
 {
-    "region" : "us-east-2",
+    "region" : "sa-east-1",
     "configuration" : "Debug",
     "framework"     : "netcoreapp3.1",
     "self-contained" : false,
-    "application"    : "CadastroDeDocumentos",
-    "environment"    : "Cadastrodedocumentos-env-Win2016",
+    "application"    : "cadastrodocumentosbanklineapp-env",
+    "environment"    : "CadastrodocumentosbanklineappEnv-env1",
     "enable-xray"    : false,
     "enhanced-health-type" : "enhanced",
     "additional-options"   : "",

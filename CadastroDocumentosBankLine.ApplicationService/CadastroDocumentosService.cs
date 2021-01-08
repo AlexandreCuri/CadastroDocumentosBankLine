@@ -21,7 +21,7 @@ namespace CadastroDocumentosBankLine.ApplicationService
 
         public async Task<Result> CadastrarDocumentos(CadastroDocumentosRequest cadastroDocumentosRequest)
         {
-            var path = Path.Combine(_configuration.GetSection(WebHostDefaults.ContentRootKey).Value, _configuration.GetSection("DiretorioArquivoDocumentos").Value.ToString());
+            var path = Path.Combine(_configuration.GetSection("DiretorioArquivoDocumentos").Value.ToString());
 
             if (!Directory.Exists(path))
             {
